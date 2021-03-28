@@ -18,7 +18,13 @@ Do the following:
    HINT: no function required
 */
 
-
+let votingAge = 18;
+if (votingAge >= 18) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+// true
 
 /*
 Task 1b - Values
@@ -31,9 +37,13 @@ Do the following:
    HINT: no function required
 */
 
-
-
-
+let myAge = 28;
+let dayOfAug2021 = 5;
+if (dayOfAug2021 >= 5) {
+  myAge++;
+  console.log(myAge);
+}
+// myAge is now 29
 
 /*
 Task 1c - Convert Strings to Numbers
