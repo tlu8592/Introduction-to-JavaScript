@@ -56,8 +56,9 @@ Do the following:
    HINT: look up the Number method
 */
 
-
-
+let gradYear = "1999";
+Number("1999");
+console.log(gradYear); // 1999
 
 /*
 Task 1d - Multiply
