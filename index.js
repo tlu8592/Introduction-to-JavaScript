@@ -223,11 +223,11 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(){
-    
+function feet(cm){
+  return cm / 30.48;
 }
  
-
+console.log(feet(205));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
