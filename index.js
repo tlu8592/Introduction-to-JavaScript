@@ -241,7 +241,6 @@ Using the annoyingSong function below do the following:
 
 function annoyingSong(num) {
   return `${num} bottles of soda on the wall, ${num} bottles of soda, take one down pass it around ${num - 1} bottles of soda on the wall`;
-  
 }
 
 console.log(annoyingSong(99));
@@ -260,13 +259,23 @@ Using the grade function below do the following:
    60-69 should return 'you got a D'
    below should return 'you got an F'
 */
-  
-function grade(/*Your Code here */){
-  /*Your Code here */
-  }
-  
-  
 
+function grade(num){
+  if (num >= 90 && num <= 100) {
+    return 'you got an A';
+  } else if (num >= 80 && num <= 89) {
+    return 'you got a B';
+  } else if (num >= 70 && num <= 79) {
+    return 'you got a C';
+  } else if (num >= 60 && num <= 69) {
+    return 'you got a D';
+  } else {
+    return 'you got an F';
+  }
+}
+
+console.log(grade(49));
+  
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
 
 //Vowel Counter - How many vowels are there?
