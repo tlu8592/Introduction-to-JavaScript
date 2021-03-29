@@ -167,10 +167,36 @@ Use the game function below to do the following:
 */
 
 function game(user, computer){
-    /*add your code here*/
+  if (user === "rock" && computer === "scissors") {
+    return "you win!";
+  }
+  if (user === "rock" && computer === "paper") {
+    return "you lose!";
+  }
+  if (user === "rock" && computer === "rock") {
+    return "it's a tie";
+  }
+  if (user === "paper" && computer === "rock") {
+    return "you win!";
+  }
+  if (user === "paper" && computer === "scissors") {
+    return "you lose!";
+  }
+  if (user === "paper" && computer === "paper") {
+    return "it's a tie";
+  }
+  if (user === "scissors" && computer === "paper") {
+    return "you win!";
+  }
+  if (user === "scissors" && computer === "rock") {
+    return "you lose!";
+  }
+  if (user === "scissors" && computer === "scissors") {
+    return "it's a tie";
+  }
 }
   
-  
+console.log(game("scissors", "rock"));  
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
